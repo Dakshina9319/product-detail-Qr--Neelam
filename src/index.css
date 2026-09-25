@@ -1,0 +1,54 @@
+@import "tailwindcss";
+
+@theme {
+  --color-canvas-base: #FEF9EE;
+  --color-silk-cream: #F8F3E8;
+  --color-night-slate: #1A2942;
+  --color-indigo-blue: #364C7B;
+  --color-indigo-dark: #28395D;
+  --color-deep-teal: #244C5A;
+  --color-zari-madder: #781E2B;
+  --color-weave-green: #15803D;
+  --color-zari-ochre: #D97706;
+  --color-card-border: #E2D9C8;
+  --color-muted-sand: #DEDACF;
+  --color-sand-light: #F2ECE0;
+
+  --font-sans: "Plus Jakarta Sans", system-ui, -apple-system, sans-serif;
+  --font-serif: "Domine", "Newsreader", Georgia, serif;
+  --font-quote: "Newsreader", "Domine", serif;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 5.5rem;
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+    background-color: var(--color-canvas-base, #FEF9EE);
+    color: var(--color-night-slate, #1A2942);
+    font-family: var(--font-sans);
+  }
+}
+
+.font-serif-brand {
+  font-family: 'Domine', 'Newsreader', Georgia, serif;
+}
+
+.font-serif-quote {
+  font-family: 'Newsreader', 'Domine', serif;
+}
+
+/* Material symbols adjustments */
+.material-symbols-outlined {
+  font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 24;
+  vertical-align: middle;
+}
+

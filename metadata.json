@@ -1,0 +1,6 @@
+{
+  "name": "neelam · Handloom Provenance & Artisan Origin",
+  "description": "Authentic handloom provenance platform verifying Tamil Nadu pit loom master weavers with radical supply chain transparency and GI registry integrity.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
